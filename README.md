@@ -33,39 +33,6 @@ Real-Time Food Sharing Workflow
 
 
 
-System Architecture :-
-
-
-+-------------------+
-|      Users        |
-| (Donors/NGOs)     |
-+---------+---------+
-          |
-          v
-+-------------------+
-|   Frontend UI     |
-| HTML / CSS / JS   |
-+---------+---------+
-          |
-          v
-+-------------------+
-| Application Logic |
-| Form Validation   |
-| Data Processing   |
-+---------+---------+
-          |
-          v
-+-------------------+
-| Data Storage      |
-| Database / Cloud  |
-+---------+---------+
-          |
-          v
-+-------------------+
-| Food Distribution |
-| NGOs / Volunteers |
-+-------------------+
-
 
 
 Technology Stack :-
@@ -81,16 +48,6 @@ VS Code
 Deployment
 GitHub Pages / Netlify / Vercel
 
-
-Project Structure :-
-
-Zero-Wait-Food-Initiative/
-│
-├── food.html
-├── css/
-├── js/
-├── images/
-└── README.md
 
 
 Workflow :-
