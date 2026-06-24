@@ -36,25 +36,35 @@ Real-Time Food Sharing Workflow
 System Architecture :-
 
 
-     Users        
- (Donors/NGOs)     
-       |
-        
- Frontend UI     
- HTML / CSS / JS   
-      |
- Application Logic 
-  Form Validation   
-  Data Processing   
-       |
- Data Storage      
- Database / Cloud  
-       |
- Data Storage      
- Database / Cloud  
-       |
- Food Distribution 
- NGOs / Volunteers 
++-------------------+
+|      Users        |
+| (Donors/NGOs)     |
++---------+---------+
+          |
+          v
++-------------------+
+|   Frontend UI     |
+| HTML / CSS / JS   |
++---------+---------+
+          |
+          v
++-------------------+
+| Application Logic |
+| Form Validation   |
+| Data Processing   |
++---------+---------+
+          |
+          v
++-------------------+
+| Data Storage      |
+| Database / Cloud  |
++---------+---------+
+          |
+          v
++-------------------+
+| Food Distribution |
+| NGOs / Volunteers |
++-------------------+
 
 
 
